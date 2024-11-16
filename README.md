@@ -3,9 +3,9 @@
 ## Aim:
 To write a verilog code for 4bit adder and verify the functionality using Test bench.
 
- Write Verilog Code
+1. Write Verilog Code
 
- Verify the Functionality using Test-bench.
+2. Verify the Functionality using Test-bench.
 
 ## Tool Required: 
 Functional Simulation: nclaunch Simulator (nclaunch) 
@@ -59,6 +59,7 @@ Note : File name should be with HDL Extension
 
 */Program to design 4 bit adder by instantiating 1 bit Full adder.also add test bench program */
 Developed by: Register Number*/
+![Screenshot 2024-11-16 151844](https://github.com/user-attachments/assets/25fa1740-9514-46fc-a915-29356ec7a2e6)
 
 ## Functional Simulation: 
 
@@ -71,6 +72,7 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![Screenshot 2024-11-16 151932](https://github.com/user-attachments/assets/548d9243-5488-48b4-bdcd-852bd1b418bd)
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -83,12 +85,14 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2024-11-16 152003](https://github.com/user-attachments/assets/7250d1f2-79bb-429d-a9f8-9677af1ad772)
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-11-16 152045](https://github.com/user-attachments/assets/fe648633-79a1-492d-af71-cbbfb4414beb)
 
 ### Fig 5:cds.lib file Creation
 
@@ -100,7 +104,8 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![Screenshot 2024-11-16 152030](https://github.com/user-attachments/assets/abb9ebb8-d130-4ca3-ae94-80e794b28747)
+
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -111,6 +116,7 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-11-16 152105](https://github.com/user-attachments/assets/3f328a07-69ca-4e9f-827a-e536422523f1)
 
 ### Fig 7: Nclaunch Window
 
@@ -130,6 +136,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2024-11-16 152207](https://github.com/user-attachments/assets/1d260b59-95cc-4305-b6bc-b7292cf1bb34)
 
 ### Fig 8: Compiled database in worklib
 
@@ -155,6 +162,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
+![Screenshot 2024-11-16 152338](https://github.com/user-attachments/assets/068af9fb-fcc1-4547-8229-1e2fbd916ceb)
+
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -168,9 +177,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 ### Fig 10: Design Browser window for simulation
 
+![Screenshot 2024-11-16 152427](https://github.com/user-attachments/assets/23a86fed-f952-421e-b9a0-7a88be9cc40e)
+
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![WhatsApp Image 2024-11-16 at 3 41 16 PM](https://github.com/user-attachments/assets/229ba138-e3d7-4886-a64b-f059f846b3fa)
 
 ### Fig 12: Simulation Waveform Window
+![Screenshot 2024-11-16 152456](https://github.com/user-attachments/assets/e086f65c-5ee2-4648-86e5-13ddf2193abb)
 
 ### Result:
 
